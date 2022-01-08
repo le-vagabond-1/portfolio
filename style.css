@@ -1,18 +1,20 @@
+h1 {
+  color: blue;
+}
+
 * {
   box-sizing: border-box;
 }
 
-body {
-  background-color: black;
-}
-
 header,
 footer {
-    border: blanchedalmond solid 2px;
+  color:blanchedalmond;
+  background: black;
   width: 100%;
+  border: blue solid 1px;
 }
 
-.main {
+main.main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
